@@ -16,4 +16,4 @@ before-install:
   - sudo mv ./kubectl /usr/local/bin/kubectl
 
 install:
-  - echo `hello udacity1345`
+  - echo `hello udacity13456`
