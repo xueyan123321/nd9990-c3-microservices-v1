@@ -16,4 +16,4 @@ before-install:
   - sudo mv ./kubectl /usr/local/bin/kubectl
 
 install:
-  - echo `hello udacity13456`
+  - docker-compose -f lesson-3-Container/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
